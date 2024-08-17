@@ -1,0 +1,70 @@
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    font-weight: bold;
+}
+.card-text {
+    font-size: 0.9rem;
+}
+.menu {
+    width: 200px;
+    margin: 20px auto;
+    position: -webkit-sticky; /* Đối với Safari */
+    position: sticky;
+    top: 150px; /* Đặt vị trí cách trên cùng của khung nhìn */
+    height: 100vh; /* Để thanh aside có chiều cao toàn màn hình */
+    overflow-y: auto;
+}
+.category {
+    margin-bottom: 20px;
+}
+.category-header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.category-list {
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.category-item {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+.category-item:first-child {
+    border-top: none;
+}
+.breakfast-item {
+    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.breakfast-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.breakfast-item h5 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.breakfast-item p {
+    margin-top: 5px;
+    color: #555;
+}
+.category-item {
+    cursor: pointer;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .category-item:hover,
+  .category-item.active {
+    background-color: rgb(167, 162, 162); /* Màu nền khi chọn */
+    color: #fff; /* Màu chữ khi chọn */
+  }

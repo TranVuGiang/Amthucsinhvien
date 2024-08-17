@@ -1,0 +1,26 @@
+body{
+    color: black;
+}
+header{
+  background: url('https://amthucsinhvien.click/IMG/bg_header.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+/* Đảm bảo header có chiều rộng đầy đủ và chuyển động khi cuộn */
+.header-fixed {
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Đảm bảo header nằm trên các phần tử khác */
+    transition: all 0.3s ease-in-out; /* Hiệu ứng chuyển đổi mượt mà */
+    /* background-color: #fceab8; */
+  }
+  
+  /* Khi cuộn trang, header có thể thay đổi chiều cao nếu cần */
+  .header-scrolled {
+    /* background-color: #f2da97; */
+    padding: 1rem 0; /* Đổi padding khi cuộn */
+  }

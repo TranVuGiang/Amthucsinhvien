@@ -1,0 +1,30 @@
+.food-section {
+    margin: 20px 0;
+}
+.food-item {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.food-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    max-width: 300px; /* Đảm bảo ảnh không vượt quá chiều rộng tối đa */
+}
+.food-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+.food-description {
+    color: gray;
+    text-align: center;
+}
+.food-item:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
